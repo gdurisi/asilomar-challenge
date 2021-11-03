@@ -14,12 +14,12 @@ This document is still in a work-in-progress status.
 ## A rough classification of massive random access systems
 In this section, we present a rough classification of massive random access systems for the internet of things (IoT), which will turn out useful to define the scenarios in this challenge.
 
-One way to classify massive random access system is by considering the complexity of the IoT devices that 
-the system intends to serve.
+One way to classify massive random access systems is by considering the complexity of the IoT devices that 
+a given system intends to serve.
 
 - **Expensive IoT devices:**
 Such devices are typically equipped with both a transmitter and a receiver, which enable them to acquire synchronization and 
-perform power adaptation. They are also equipped with good enough power amplifiers to be able to implement transmission schemes such as orthogonal frequency-division multiplexing (OFDM).
+perform power adaptation. They are also equipped with good enough power amplifiers to be able to support transmission schemes such as orthogonal frequency-division multiplexing (OFDM).
 [*Provide examples*]
 
 - **Cheap IoT devices:**
@@ -30,12 +30,13 @@ These devices are equipped only with a transmitter, they have cheap power amplif
 Another useful classification is in terms of the location of the receiver.
 
 - **Satellite-based IoT receivers:**
-In such system, the receiver is mounted on a satellite, which results in good coverage over a large geographical area.
-For the case of cheap IoT devices, the propagation channel can be modeled as an AWGN channel with unknown path loss subject to phase noise. The challenge for such systems is to solve the link-budget problem and to compensate for phase noise.
-*[Provide some examples of systems]*
+In such systems, the receiver is mounted on a satellite, which results in good coverage over a large geographical area.
+For the case of cheap IoT devices, the propagation channel can be modeled as an AWGN channel with unknown path loss and multiplicative phase noise. The challenge for such systems is to solve the link-budget problem and to compensate for phase noise.
+*[Provide some examples]*
 
 - **Ground IoT receivers:**
-For such a scenario, one needs to account also for small-scale fading, and for multipath propagation, which, for the case of cheap IoT receivers, cannot be addressed by the use of OFDM.
+In such systems, one needs to account also for small-scale fading, and for multipath propagation, which, for the case of cheap IoT devices, cannot be addressed by the use of OFDM.
+*[Provide some examples]*
 
 
 
@@ -46,6 +47,8 @@ For such a scenario, one needs to account also for small-scale fading, and for m
 - Maxime Guillaud (Huawei Technologies)
 - Gianluigi Liva (DLR, Germany)
 - Krishna Narayanan (Texas A&M University)
+
+Interested in contributing? Please let us know and we will be happy to add you the list. 
 
 ***	
 
