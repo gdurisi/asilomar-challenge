@@ -48,7 +48,7 @@ In such systems, one needs to account also for small-scale fading, and for multi
 - Gianluigi Liva (DLR, Germany)
 - Krishna Narayanan (Texas A&M University)
 
-Interested in contributing? Please let us know and we will be happy to add you the list. 
+Interested in contributing? Please let us know and we will be happy to add you to the list. 
 
 ***	
 
